@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+
+* { margin: 0; padding: 0; }
+
+body { background-color:#FFFFFF; font-family: sans-serif; font-size: 16px; }
+p { line-height: 1.4; }
+p.alturaLinhaSimples { line-height: 1.2;}
+h1 { font-size: 22px; }
+h1#tituloPagina { margin-bottom: 50px; }
+h2 { font-size: 16px; }
+
+div#containerPaginaGeral { max-width: 1280px; margin-left: auto; margin-right: auto; }
+
+div#containerConteudo { max-width: 60%; margin-right: auto; margin-left: auto; }
+
+div#containerErro { background-color: #efcbd9; border: 1px solid #cccccc; padding: 10px; border-radius: 5px; margin-bottom: 30px; }
+div#containerErro img { float: left; margin-right: 10px; }
+div#containerErro p#errorMsg { font-weight: bold; }
+
+div#cabecalho { margin-bottom: 10px; border-bottom: 1px solid #000000; min-height: 90px; display: flex; align-items: center; justify-content: space-between;}
+div#cabecalho div#usuario { display: flex; align-items: center; justify-content: center; }
+div#cabecalho div#usuario a { margin-right: 10px; font-size: 18px; color:#0098da; font-weight:bold; text-decoration: none; }
+div#cabecalho div#usuario img { margin-right: 10px; }
+
+.centralizado { text-align: center; }
+.recuoSimples {margin-left: 30px; }
+.negrito { font-weight: bold; }
+.letraAzulClaro { color:#0098da; }
+.letraVermelha { color:#ff0000; }
+.letraPreta { color:#000000; }
+.letraCinza {color: #a0a0a0; }
+.exibirBorda { border: 1px solid #cccccc;	padding: 10px; border-radius: 5px; }
+.errorMessage { font-size: 15px; color: red; }
+
+a.linkAzulClaro  { color:#1480bc; text-decoration: none; } /* loginForm.jsp */
+a:hover.linkAzulClaro  { text-decoration:underline; }
+a.linkAzul { color:#164fc8; text-decoration: none; } /* usuarioConta.jsp */
+a:hover.linkAzul { text-decoration:underline; }
+a.linkTopico { color:#000000; text-decoration: none; } 
+a:hover.linkTopico { color:#0098da; text-decoration: underline; }
+
+input.readonly { background-color: #fafafa; }
+
+.tabelaLista { margin-left: auto; margin-right: auto; border-collapse: separate; border-spacing: 8px;}
+.tabelaLista td { padding: 0px 20px 0px 20px }
+
+div#exibirLista div.campo { margin-bottom: 10px; }
+div#exibirLista div#barranovo {background-color: #f5f6f7; padding: 8px 10px 8px 10px; border-radius: 25px 0px 0px 25px; min-height: 8px; display: flex; align-items: center; justify-content: space-between} /* top-left corner, top-right, bottom-right, bottom-left */
+div#exibirLista div#primeiraLinha { display: flex; align-items:flex-start; justify-content: space-between; padding: 10px 10px 0px 10px;}
+div#exibirLista div#ultimaLinha { border-bottom: 1px solid #cccccc; margin-bottom: 20px; padding: 0px 10px 10px 10px; }
+div#exibirLista div#barranovo a.linkNovo {display: flex; align-items: center; color: #000000; text-decoration: none; }
+div#exibirLista div#barranovo a:hover.linkNovo {text-decoration: underline; }
+div#exibirLista div#barranovo img#btNovo { margin-right: 10px; }
+div#exibirLista div#primeiraLinha div#displayData { display: flex; align-items: center; justify-content: center; }
+div#exibirLista div#primeiraLinha div#displayData img { width:20px; height:20px; margin-right: 5px; }
+
+div#formVerticalContainer { width: 350px; margin-left: auto; margin-right: auto; }
+div#formVerticalContainer div.campo { margin-bottom: 30px; }
+div#formVerticalContainer div.campo label { display: block; }
+div#formVerticalContainer div.campo input[type="text"],  div.campo input[type="email"], div.campo input[type="password"], div.campo textarea { 	
+	border: 1px solid #cccccc; 
+	outline:none; /* evita borda grossa quando o elemento recebe o foco*/
+	width: 330px; margin-top: 5px; padding: 10px; border-radius: 5px; font-family: sans-serif; font-size: 15px;
+    box-shadow: 0px 0px 0px; /* é preciso por 0 para remover pois o input tipo password tem sombra própria) */
+ }
+
+.botao { width:350px; background-color:#0098da; font-family: sans-serif; font-size: 18px; color:#ffffff; border: 0; border-radius: 5px; padding: 10px; }
+.botao:hover {cursor: pointer; }
+
+
+
+/*** página login ***/
+div#containerPaginaLogin { height: 100vh; width: 100vw; display: flex; align-items: center; justify-content: center; }
+div#containerPaginaLogin div#containerBoxLogin { width: 610px; background-color:#ececec; border:1px solid #cccccc; }
+div#containerPaginaLogin div#containerBoxLogin div#esquerda { float:left; width:265px; padding: 25px 20px 25px 20px; }
+div#containerPaginaLogin div#containerBoxLogin div#esquerda img { margin-bottom:18px; }
+div#containerPaginaLogin div#containerBoxLogin div#esquerda p#participe { margin-bottom:30px; }
+div#containerPaginaLogin div#containerBoxLogin div#esquerda a { font-size: 15px; color: #000000; }
+div#containerPaginaLogin div#containerBoxLogin div#esquerda a:hover { text-decoration: none; }
+div#containerPaginaLogin div#containerBoxLogin div#direita { float:left; width:305px; }
+div#containerPaginaLogin div#containerBoxLogin div#direita form { background-color: #ffffff; max-width: 100%; padding: 15px 0px 15px 0px; text-align: center; }
+div#containerPaginaLogin div#containerBoxLogin div#direita p#errorMsg { font-weight:bold; font-size: 16px; }
+div#containerPaginaLogin div#containerBoxLogin div#direita input[type="text"], input[type="password"] {
+	border: 1px solid #cccccc;
+	outline:none; /* evita borda grossa quando o elemento recebe o foco*/
+	width:265px; margin-top: 12px; padding:10px; border-radius: 5px; font-family: sans-serif; font-size: 16px; border: 1px solid #cccccc; }
+div#containerPaginaLogin div#containerBoxLogin div#direita input[type="submit"] { width:265px; font-family: sans-serif; font-size:1em; color:#ffffff;    	
+	background-color:#0098da; border: 0; border-radius: 5px; padding: 8px; margin-top: 12px; margin-bottom: 15px; }
+div#containerPaginaLogin div#containerBoxLogin div#direita input[type="submit"]:hover {	cursor: pointer; }
+
+div#usuarioOuSenhaInvalidoContainer { width: 265px; margin: 16px 0px 12px 20px; background-color: #efcbd9; border-radius: 5px; text-align: left; }
+div#usuarioOuSenhaInvalidoContainer div { padding:10px; display: flex; align-items: center; justify-content: left; }
+div#usuarioOuSenhaInvalidoContainer img { width: 20px; height: 20px; margin-right: 5px; }
+div#usuarioOuSenhaInvalidoContainer p#titulo { font-weight: bold; }
+div#usuarioOuSenhaInvalidoContainer p#texto { padding: 0px 10px 10px 10px; }
