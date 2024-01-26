@@ -78,5 +78,5 @@ Ver galeria completa de imagens em: <br>
 14. Abrir uma janela do navegador e digitar a url: **localhost:8080/fg/**
 
 **Muito difícil?**<br>
-Nesse caso é possível assistir ao vídeo de divulgação do projeto sem instalar nada em: <br>
+Nesse caso assista ao vídeo de divulgação do projeto e conheça tudo sem instalar absolutamente nada: <br>
 <https://www.youtube.com/watch?v=5M9K9McJ3zg>
