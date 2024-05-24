@@ -35,7 +35,7 @@ www.togtec.com.br/projetos/forum-gamification/resumo.php
 </p>
 
 Ver galeria completa de imagens em: <br>
-www.togtec.dev.br/projetos/forum-gamification/imagens.php
+www.togtec.com.br/projetos/forum-gamification/imagens.php
 
 ## Funcionalidades
 1. Visitante acessa o sistema
