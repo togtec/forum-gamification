@@ -49,10 +49,10 @@ www.togtec.com.br/projetos/forum-gamification/imagens.php
 4. Visitante efetua login como administrador (cadastra **fóruns**, **tópicos** e **comentários**)
     - Ganha 10 pontos por tópico cadastrado
     - Ganha 3 pontos por comentário cadastrado
-5. Usuário/administrador acessa o ranking para comparar sua posição em relação aos demais
-6. Usuário/administrador edita nome e e-mail
-7. Usuário/administrador redefine senha
-8. Usuário/administrador efetua logout
+5. Usuários e Administradores acessam o ranking para comparar sua posição em relação aos demais
+6. Usuários e Administradores editam nome e e-mail
+7. Usuários e Administradores redefinem senha
+8. Usuários e Administradores efetuam logout
 
 ## Executando o código localmente
 1. Instalar o Servidor de Aplicação JEE **Apache TomCat**
