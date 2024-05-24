@@ -12,7 +12,7 @@ A aplicação é organizada em camadas, seguindo o modelo **MVC**, com uma camad
 O Fórum Gamification é uma joia do teste de software que contempla Testes Unitários **JUnit**, Testes de Integração de Banco de Dados **DBUnit** e Testes de Validação do Comportamento Completo da Aplicação **E2E** com **Selenium WebDriver**. <br>
 
 Para maiores informações, visite a página oficial do projeto: <br>
-<https://togtec.dev.br/projetos/forum-gamification/resumo.php>
+www.togtec.com.br/projetos/forum-gamification/resumo.php
 
 ## Tecnologias
   * Java SE (11)
@@ -35,7 +35,7 @@ Para maiores informações, visite a página oficial do projeto: <br>
 </p>
 
 Ver galeria completa de imagens em: <br>
-<https://togtec.dev.br/projetos/forum-gamification/imagens.php>
+www.togtec.dev.br/projetos/forum-gamification/imagens.php
 
 ## Funcionalidades
 1. Visitante acessa o sistema
