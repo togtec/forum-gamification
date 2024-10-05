@@ -1,20 +1,30 @@
-## Fórum Gamification
+# Fórum Gamification <br> Gamification Forum
 
-## Resumo
-O Fórum Gamification é um projeto de **criação original** desenvolvido como trabalho final de conclusão do curso **Desenvolvimento Ágil com Java Avançado**. A aplicação consiste em um **Sistema Web de Gerenciamento de Fóruns**.
+## Escolha seu Idioma <br> Choose Your Language 
+
+- [Português (Brasil)](#versão-em-português)
+- [English (United States)](#english-version)
+
+<br>
+
+<a name="versão-em-português"></a>
+## <img src="https://github.com/togtec/togtec/blob/main/img/pt-br.png" alt="PT-BR" /> Versão em Português
+
+### Fórum Gamification - Resumo
+O **Fórum Gamification** é um projeto de **criação original** desenvolvido como trabalho final de conclusão do curso **Desenvolvimento Ágil com Java Avançado**. A aplicação consiste em um **Sistema Web de Gerenciamento de Fóruns**.
 
 Os usuários podem cadastrar **tópicos** e **comentários**, enquanto os administradores, **tópicos**, **comentários** e novos **fóruns**.
 
 Ao cadastrar um tópico ou comentário, o usuário ganha pontos, podendo assim, competir com os demais em um estimulante sistema de ranking.
 
-A aplicação é organizada em camadas, seguindo o modelo **MVC**, com uma camada intermediária entre os **Servlets** e o **Banco de Dados**. O projeto utiliza um Servidor de Aplicação **JEE Apache TomCat**, que recebe as requisições, e as distribuem aos seus respectivos Servlets. Os Servlets, por sua vez, acessam a base de dados — através da camada intermediária **DAO** — e distribuem as informações às páginas **JSP**. As páginas JSP utilizam as tecnologias **TagLib** e **JSTL** para exibir as informações recebidas.
+A aplicação é organizada em camadas, seguindo o modelo **MVC**, com uma camada intermediária entre os **Servlets** e o **Banco de Dados**. O projeto utiliza um Servidor de Aplicação **JEE Apache TomCat**, que recebe as requisições e as retransmitem aos Servlets. Os Servlets, por sua vez, acessam a base de dados — através da camada intermediária **DAO** — e retransmitem as informações às páginas **JSP**.
 
 O Fórum Gamification é uma joia do teste de software que contempla Testes Unitários **JUnit**, Testes de Integração de Banco de Dados **DBUnit** e Testes de Validação do Comportamento Completo da Aplicação **E2E** com **Selenium WebDriver**. <br>
 
 Para maiores informações, visite a página oficial do projeto: <br>
-www.togtec.com.br/projetos/forum-gamification/resumo.php
+<https://togtec.com.br/projetos/forum-gamification/resumo.php>
 
-## Tecnologias
+### Tecnologias
   * Java SE (11)
   * Maven
   * Servidor de Aplicação JEE Apache TomCat (9.0) 
@@ -26,35 +36,36 @@ www.togtec.com.br/projetos/forum-gamification/resumo.php
   * DBUnit
   * Selenium WebDriver
   
-## IDE  
+### IDE  
   * Eclipse
 
-## Captura de tela
+### Captura de tela
 <p align="center">
   <img src="doc/img/img-004-home-Tatiana-Alcantara.png" alt="Home usuário Tatiana Alcantara">
 </p>
 
 Ver galeria completa de imagens em: <br>
-www.togtec.com.br/projetos/forum-gamification/imagens.php
+<https://togtec.com.br/projetos/forum-gamification/imagens.php>
 
-## Funcionalidades
+### Funcionalidades
 1. Visitante acessa o sistema
     - Navega na lista de fóruns
     - Navega na lista de tópicos
     - Navega na lista de comentários
 2. Visitante cria uma conta (define login, e-mail, nome e senha)    
-3. Visitante efetua login como usuário (cadastra **tópicos** e **comentários**)
-    - Ganha 10 pontos por tópico cadastrado
-    - Ganha 3 pontos por comentário cadastrado
-4. Visitante efetua login como administrador (cadastra **fóruns**, **tópicos** e **comentários**)
-    - Ganha 10 pontos por tópico cadastrado
-    - Ganha 3 pontos por comentário cadastrado
+3. Visitante efetua login como **usuário**
+    - Cadastra tópicos (ganha 10 pontos por tópico cadastrado)
+    - Cadastra comentários (ganha 3 pontos por comentário cadastrado)
+4. Visitante efetua login como **administrador**
+    - Cadastra fóruns
+    - Cadastra tópicos (ganha 10 pontos por tópico cadastrado)
+    - Cadastra comentários (ganha 3 pontos por comentário cadastrado)
 5. Usuários e Administradores acessam o ranking para comparar sua posição em relação aos demais
 6. Usuários e Administradores editam nome e e-mail
 7. Usuários e Administradores redefinem senha
 8. Usuários e Administradores efetuam logout
 
-## Executando o código localmente
+### Executando o código localmente
 1. Instalar o Servidor de Aplicação JEE **Apache TomCat**
 2. Instalar a IDE Eclipse (escolher a oção: **Eclipse IDE for Enterprise Java and Web Developers**)
 3. **Integrar** a IDE Eclipse ao Servidor de Aplicação Apache TomCat
@@ -79,4 +90,11 @@ www.togtec.com.br/projetos/forum-gamification/imagens.php
 
 **Muito difícil?**<br>
 Nesse caso assista ao vídeo de divulgação do projeto e conheça tudo sem instalar absolutamente nada: <br>
-<https://www.youtube.com/watch?v=5M9K9McJ3zg>
+<https://togtec.com.br/projetos/forum-gamification/videos.php>
+
+<br>
+
+<a name="english-version"></a>
+## <img src="https://github.com/togtec/togtec/blob/main/img/en-us.png" alt="EN-US" /> English Version
+
+###  Gamification Forum - Overview
