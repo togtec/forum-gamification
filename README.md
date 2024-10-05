@@ -53,10 +53,10 @@ Ver galeria completa de imagens em: <br>
     - Navega na lista de tópicos
     - Navega na lista de comentários
 2. Visitante cria uma conta (define login, e-mail, nome e senha)    
-3. Visitante efetua login como **usuário**
+3. Visitante efetua login como **usuário**:
     - Cadastra tópicos (ganha 10 pontos por tópico cadastrado)
     - Cadastra comentários (ganha 3 pontos por comentário cadastrado)
-4. Visitante efetua login como **administrador**
+4. Visitante efetua login como **administrador**:
     - Cadastra fóruns
     - Cadastra tópicos (ganha 10 pontos por tópico cadastrado)
     - Cadastra comentários (ganha 3 pontos por comentário cadastrado)
