@@ -98,3 +98,83 @@ Nesse caso assista ao vídeo de divulgação do projeto e conheça tudo sem inst
 ## <img src="https://github.com/togtec/togtec/blob/main/img/en-us.png" alt="EN-US" /> English Version
 
 ###  Gamification Forum - Overview
+The **Gamification Forum** is an **original project** developed as a final assignment for the **Agile Development with Advanced Java** course. This application is a **Forum Management System**.
+
+Users can create **topics** and **comments**, while administrators can manage **topics**, **comments**, and add new **forums**.
+
+By creating a topic or comment, users earn points, allowing them to compete with others in an exciting ranking system.
+
+The application is organized in layers, following the **MVC** model, with an intermediary layer between **Servlets** and the **Database**. The project utilizes an **Apache TomCat JEE Application Server**, which receives requests and forwards them to Servlets. The Servlets then access the database — via the **DAO** intermediary layer — and return information to the **JSP** pages.
+
+The Gamification Forum is a gem of software testing, featuring: Unit Tests with **JUnit**, Database Integration Tests with **DBUnit**, and End-to-End (E2E) Behavior Validation Tests with **Selenium WebDriver** <br>
+
+For more information, visit the official project page: <br>
+<https://en.togtec.com.br/projects/gamification-forum/summary.php>
+
+### Technologies
+  * Java SE (11)
+  * Maven
+  * Apache TomCat JEE Application Server (9.0)
+  * Servlet
+  * JSP
+  * JDBC
+  * PostgreSQL
+  * JUnit 5
+  * DBUnit
+  * Selenium WebDriver
+
+### IDE  
+  * Eclipse
+
+### Screenshot
+<p align="center">
+  <img src="doc/img/img-004-home-Tatiana-Alcantara.png" alt="Home user Tatiana Alcantara">
+</p>
+
+See the full image gallery at: <br>
+<https://en.togtec.com.br/projects/gamification-forum/images.php>
+
+### Features
+1. Visitor accesses the system:
+    - Browses through forums
+    - Browses through topics
+    - Browses through comments
+2. Visitor creates an account (specifies login, email, name, and password)
+3. Visitor logs in as a **user**:
+    - Creates topics (earns 10 points per topic)
+    - Creates comments (earns 3 points per comment)
+4. Visitor logs in as an **administrator**:
+    - Creates forums
+    - Creates topics (earns 10 points per topic)
+    - Creates comments (earns 3 points per comment)
+5. Users and Administrators view the ranking to compare their position with others
+6. Users and Administrators edit their name and email
+7. Users and Administrators reset their password
+8. Users and Administrators log out
+
+### Running the Code Locally
+1. Install the **Apache TomCat** JEE Application Server
+2. Install the Eclipse IDE (choose **Eclipse IDE for Enterprise Java and Web Developers**)
+3. **Integrate** Eclipse with the Apache TomCat Application Server
+4. **Download** the project from the git repository
+5. **Import** the project into Eclipse
+6. **Update** the Project’s Maven dependencies
+7. **Add** the project to the Apache TomCat Application Server
+8. Manually download the **chromedriver.exe** dependency (WebDriver for Google Chrome — Required for **E2E** tests with **Selenium WebDriver**)
+    - **Note 1:** Choose the chromedriver version compatible with your Google Chrome browser version
+    - **Note 2:** Place the chromedriver.exe file in the directory: D:\softDev\libraries\WebDriver\bin
+9. Install **PostgreSQL** Database
+10. Install **pgAdmin** (administration and management tool for PostgreSQL)
+11. In pgAdmin, run:
+    - The script to create the **ROLE** ita
+    - The script to create the **DATABASE** forum_gamification_db
+    - The script to create the **TABLEs**
+    - The script to create the **SEQUENCEs**
+    - **Note 1:** The scripts are located in the **banco_de_dados.sql** file in the **sql** directory at the root of the repository
+    - **Note 2:** Scripts should be executed **one by one**, in the order they appear in the file   
+12. Run the project (choose **Run on Server** option)
+13. Open a browser window and enter the url: **localhost:8080/fg/**
+
+**Too difficult?**<br>
+In this case, watch the project introduction video to learn everything without needing to install anything: <br>
+<https://en.togtec.com.br/projects/gamification-forum/videos.php>
